@@ -63,7 +63,7 @@ as part of the the GNU Bazaar revision control system.
 As such, lazyimport is distributed under the GNU General Public License v3,
 like GNU Bazzar itself.
 
-Slightly adapted to package form by `Shay Palachy <www.shaypalachy.com>`_.
+Slightly adapted to package form by `Shay Palachy <http://www.shaypalachy.com>`_.
 
 .. alternative:
 .. https://badge.fury.io/py/yellowbrick.svg
