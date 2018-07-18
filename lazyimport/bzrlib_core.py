@@ -408,7 +408,7 @@ def lazyimport(scope, text, lazyimport_class=None):
     ----------
     scope : object
         The scope into which the given imports are imported. A common
-        use case is to provide this parameters with the global scope
+        use case is to provide this parameter with the global scope
         by assigning scope=globals().
     text : str
         The string giving the import code to perform lazily. For example,

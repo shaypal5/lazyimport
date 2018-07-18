@@ -37,8 +37,8 @@ Use
 
 The ``lazyimport`` function taks two parameters:
 
-- ``scope`` - The scope into which the given imports are imported. A common use case is to provide this parameters with the global scope by assigning ``scope=globals()``.
-- ``text`` - The string giving the import code to perform lazily. For example, "from pandas import DataFrame".
+- ``scope`` - The scope into which the given imports are imported. A common use case is to provide this parameter with the global scope by assigning ``scope=globals()``.
+- ``text`` - The string giving the import code to perform lazily. For example, ``"from pandas import DataFrame"``.
 
 
 Example use:
@@ -56,17 +56,14 @@ Example use:
 Credits
 =======
 
-.. .. Written by Paul Ivanov - https://github.com/ivanov - for the nitime library -
-https://github.com/nipy/nitime.
-
+.. .. Written by Paul Ivanov - https://github.com/ivanov - for the nitime library - https://github.com/nipy/nitime.
 Written by John Arbash Meinel, Martin von Gagern, Martin Packman and others
 as part of the the GNU Bazaar revision control system.
 
 As such, lazyimport is distributed under the GNU General Public License v3,
 like GNU Bazzar itself.
 
-Slightly adapted to package form by Shay Palachy - https://github.com/shaypal5
-
+Slightly adapted to package form by `Shay Palachy <www.shaypalachy.com>`_.
 
 .. alternative:
 .. https://badge.fury.io/py/yellowbrick.svg
