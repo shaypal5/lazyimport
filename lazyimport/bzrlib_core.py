@@ -47,6 +47,7 @@ from .errors import (
     ImportNameCollision
 )
 
+
 class ScopeReplacer(object):
     """A lazy object that will replace itself in the appropriate scope.
 
@@ -354,7 +355,6 @@ class ImportProcessor(object):
         """
         out = []
         cur = None
-        continuing = False
 
         for line in text.split('\n'):
             line = line.strip()
@@ -403,6 +403,16 @@ def lazyimport(scope, text, lazyimport_class=None):
     because other objects (functions/classes/variables) are frequently
     used without accessing a member, which means we cannot tell they
     have been used.
+
+    Parameters
+    ----------
+    scope : object
+        The scope into which the given imports are imported. A common
+        use case is to provide this parameters with the global scope
+        by assigning scope=globals().
+    text : str
+        The string giving the import code to perform lazily. For example,
+        "from pandas import DataFrame".
     """
     # This is just a helper around ImportProcessor.lazyimport
     proc = ImportProcessor(lazyimport_class=lazyimport_class)

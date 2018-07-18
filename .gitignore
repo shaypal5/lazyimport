@@ -109,3 +109,11 @@ target/
 # ctags
 tags
 
+# vim swap files
+*.swp
+
+# pytest
+.pytest_cache/
+
+# venv
+.venv/

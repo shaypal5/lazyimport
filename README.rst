@@ -13,6 +13,7 @@ lazyimport
     from mypackage import submodule
     import another_package
     """
+  )
 
 .. contents::
 
@@ -34,7 +35,16 @@ Install ``lazyimport`` with:
 Use
 ===
 
-Soon.
+The ``lazyimport`` function and 
+
+.. code-block:: python
+
+  from lazyimport import lazyimport
+  lazyimport(globals(), """
+    from mypackage import submodule
+    import another_package
+    """
+  )
 
 
 Credits
