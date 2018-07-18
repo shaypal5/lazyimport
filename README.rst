@@ -50,7 +50,7 @@ The ``lazyimport`` function and
 Credits
 =======
 
-Written by Paul Ivanov - https://github.com/ivanov - for the nitime library -
+.. .. Written by Paul Ivanov - https://github.com/ivanov - for the nitime library -
 https://github.com/nipy/nitime.
 
 Written by John Arbash Meinel, Martin von Gagern, Martin Packman and others
