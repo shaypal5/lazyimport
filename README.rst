@@ -35,7 +35,12 @@ Install ``lazyimport`` with:
 Use
 ===
 
-The ``lazyimport`` function and 
+The ``lazyimport`` function taks two parameters:
+- ``scope`` - The scope into which the given imports are imported. A common use case is to provide this parameters with the global scope by assigning ``scope=globals()``.
+- ``text`` - The string giving the import code to perform lazily. For example, "from pandas import DataFrame".
+
+
+Example use:
 
 .. code-block:: python
 
