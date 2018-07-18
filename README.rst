@@ -22,8 +22,6 @@ lazyimport
 Installation
 ============
 
-.. ``lazyimport`` is tested on Python 2.7, 3.4, 3.5 and 3.6.
-
 Install ``lazyimport`` with:
 
 .. code-block:: bash
@@ -55,7 +53,6 @@ Example use:
 Credits
 =======
 
-.. .. Written by Paul Ivanov - https://github.com/ivanov - for the nitime library - https://github.com/nipy/nitime.
 Written by John Arbash Meinel, Martin von Gagern, Martin Packman and others
 as part of the the GNU Bazaar revision control system.
 
