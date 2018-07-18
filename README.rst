@@ -1,8 +1,7 @@
 lazyimport
 ##########
-|PyPI-Status| |PyPI-Versions|  |LICENCE|
+|PyPI-Status| |PyPI-Versions| |Build-Status| |Codecov| |LICENCE|
 
-.. ..  |Build-Status| |Codecov|
 
 ``lazyimport`` lets you import python modules lazily.
 
