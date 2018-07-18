@@ -214,7 +214,7 @@ class ImportReplacer(ScopeReplacer):
 
         # Prepare the children to be imported
         for child_name, (child_path, child_member, grandchildren) in \
-                children.iteritems():
+                children.items():
             # Using self.__class__, so that children get children classes
             # instantiated. (This helps with instrumented tests)
             cls = object.__getattribute__(self, '__class__')
@@ -248,7 +248,7 @@ class ImportProcessor(object):
     def _convert_imports(self, scope):
         # Now convert the map into a set of imports
         try:
-            for name, info in self.imports.iteritems():
+            for name, info in self.imports.items():
                 self._lazyimport_class(
                     scope, name=name, module_path=info[0],
                     member=info[1], children=info[2])
